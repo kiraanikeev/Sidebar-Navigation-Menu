@@ -1,124 +1,119 @@
-.menu{
-display: flex;
+.menu {
+  display: flex;
 }
-.popup_container{
-    position: fixed;
-    top: 192px;
-    left:40px;
-    background-color: black;
-    width:130px;
-    height: 315px;
-    border-radius: 0 25px 25px 0;
-    transition: 0.1s;
-    transform: translateX(10px);
+.popup_container {
+  position: fixed;
+  top: 192px;
+  left: 40px;
+  background-color: black;
+  width: 130px;
+  height: 315px;
+  border-radius: 0 25px 25px 0;
+  transition: 0.1s;
+  transform: translateX(10px);
 }
-.text{
-margin-top: 28px;
-margin-left: 30px;
-list-style-type: none;
-opacity: 0.7;
-height: 20px;
-
+.text {
+  margin-top: 28px;
+  margin-left: 30px;
+  list-style-type: none;
+  opacity: 0.7;
+  height: 20px;
 }
-.link{
-    text-decoration: none; 
-    color: white;
+.link {
+  text-decoration: none;
+  color: white;
 }
-.text:hover{
-    opacity: 1;
-    cursor: pointer;
-    border-right: 4px solid white;
-    }
-.container{
-    position: fixed;
-    top: 20px;
-    display: block;
-
+.text:hover {
+  opacity: 1;
+  cursor: pointer;
+  border-right: 4px solid white;
 }
-
-.button{
-    margin-bottom: 40px;
-    background-color: black;
-    border: none;
-    border-radius: 50%;
-    width: 40px;
-    height: 40px;
-    margin-left: 5px;
-
-}
-.button_img{
-    width: 20px;
-    height: 20px;
-    opacity: 0.7;
-    transition: 0.3s;
-    background-image:  url("../images/list-view-32.png");
-    background-repeat: no-repeat;
-    background-size: 20px;
-
-    margin: auto;
-}
-.button_imgOff{
-    width: 20px;
-    height: 20px;
-    opacity: 0.7;
-    transition: 0.3s;
-    background-image:  url("../images/x-mark-32.png");
-    background-repeat: no-repeat;
-    background-size: 20px;
-    margin: auto;
-
-}
-.button_imgOff:hover{
-    opacity: 1;
-    cursor: pointer
-}
-.button_img:hover{
-    opacity: 1;
-    cursor: pointer
-}
-.section{
-    background-color: black;
-    width: 50px;
-    box-sizing: border-box;
-    align-items: center;
-    justify-content: space-between;
-    border-radius: 0 25px 25px 0;
- 
-}
-.ul{
-margin: 50px 10px;
-}
-.icon{
-    opacity: 0.7;
-    margin-top: 20px;
-    width: 40px;
-   
-    }
-.icon:hover{
-    opacity: 1;
-    cursor: pointer;
-    border-right: solid white;
-    }
-.logo{
-    margin-bottom: 40px;
-    padding-top: 30px;
-    margin-left: 5px;
+.container {
+  position: fixed;
+  top: 20px;
+  display: block;
+  z-index: 2;
 }
 
-.profil_img{
-    border: none;
-    border-radius: 50%;
-    width: 40px;
-    height: 40px;
-    margin-bottom: 20px;
+.button {
+  margin-bottom: 40px;
+  background-color: black;
+  border: none;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  margin-left: 5px;
+}
+.button_img {
+  width: 20px;
+  height: 20px;
+  opacity: 0.7;
+  transition: 0.3s;
+  background-image: url("../images/list-view-32.png");
+  background-repeat: no-repeat;
+  background-size: 20px;
+
+  margin: auto;
+}
+.button_imgOff {
+  width: 20px;
+  height: 20px;
+  opacity: 0.7;
+  transition: 0.3s;
+  background-image: url("../images/x-mark-32.png");
+  background-repeat: no-repeat;
+  background-size: 20px;
+  margin: auto;
+}
+.button_imgOff:hover {
+  opacity: 1;
+  cursor: pointer;
+}
+.button_img:hover {
+  opacity: 1;
+  cursor: pointer;
+}
+.section {
+  background-color: black;
+  width: 50px;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 0 25px 25px 0;
+}
+.ul {
+  margin: 50px 10px;
+}
+.icon {
+  opacity: 0.7;
+  margin-top: 20px;
+  width: 40px;
+}
+.icon:hover {
+  opacity: 1;
+  cursor: pointer;
+  border-right: solid white;
+}
+.logo {
+  margin-bottom: 40px;
+  padding-top: 30px;
+  margin-left: 5px;
 }
 
-.hidden{
-    visibility: hidden;
-    position: fixed;
-    top: 192px;
-    left:40px;
-    transition: 0.2s;
-    border-radius: 0 25px 25px 0;
-    transform: translateX(-100px);
+.profil_img {
+  border: none;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  margin-bottom: 20px;
+}
+
+.hidden {
+  visibility: hidden;
+  position: fixed;
+  top: 192px;
+  left: 40px;
+  transition: 0.2s;
+  border-radius: 0 25px 25px 0;
+  transform: translateX(-100px);
 }
