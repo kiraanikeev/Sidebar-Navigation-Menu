@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/Sidebar-Navigation-Menu/static/css/main.2e07cbc4.chunk.css",
+    "main.js": "/Sidebar-Navigation-Menu/static/js/main.6d4be223.chunk.js",
+    "main.js.map": "/Sidebar-Navigation-Menu/static/js/main.6d4be223.chunk.js.map",
+    "runtime-main.js": "/Sidebar-Navigation-Menu/static/js/runtime-main.5c9092f4.js",
+    "runtime-main.js.map": "/Sidebar-Navigation-Menu/static/js/runtime-main.5c9092f4.js.map",
+    "static/js/2.fef0b852.chunk.js": "/Sidebar-Navigation-Menu/static/js/2.fef0b852.chunk.js",
+    "static/js/2.fef0b852.chunk.js.map": "/Sidebar-Navigation-Menu/static/js/2.fef0b852.chunk.js.map",
+    "static/js/3.7614add8.chunk.js": "/Sidebar-Navigation-Menu/static/js/3.7614add8.chunk.js",
+    "static/js/3.7614add8.chunk.js.map": "/Sidebar-Navigation-Menu/static/js/3.7614add8.chunk.js.map",
+    "index.html": "/Sidebar-Navigation-Menu/index.html",
+    "static/css/main.2e07cbc4.chunk.css.map": "/Sidebar-Navigation-Menu/static/css/main.2e07cbc4.chunk.css.map",
+    "static/js/2.fef0b852.chunk.js.LICENSE.txt": "/Sidebar-Navigation-Menu/static/js/2.fef0b852.chunk.js.LICENSE.txt",
+    "static/media/Pages.module.css": "/Sidebar-Navigation-Menu/static/media/img-7.dfeef525.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5c9092f4.js",
+    "static/js/2.fef0b852.chunk.js",
+    "static/css/main.2e07cbc4.chunk.css",
+    "static/js/main.6d4be223.chunk.js"
+  ]
+}
