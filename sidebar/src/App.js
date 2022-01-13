@@ -1,6 +1,6 @@
 import "./App.css";
 import Sidebar from "./components/Sidebar";
-import { Route } from "react-router-dom";
+import { Route, Redirect } from "react-router-dom";
 import Contacts from "./components/Contacts";
 import Documents from "./components/Documents";
 import Home from "./components/Home";
@@ -18,6 +18,7 @@ function App() {
       <Route path="/settings" component={Settings} />
       <Route path="/statistics" component={Statistics} />
       <Route path="/team" component={Team} />
+      <Redirect to="/" />
     </div>
   );
 }
